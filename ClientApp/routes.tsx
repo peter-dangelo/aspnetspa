@@ -5,7 +5,7 @@ import Home from './components/Home';
 import FetchData from './components/FetchData';
 import Counter from './components/Counter';
 
-export default <Route path="/test/" component={ Layout }>
+export default <Route path="/test" component={ Layout }>
     <Route path='/' components={{ body: Home }} />
     <Route path='counter' components={{ body: Counter }} />
     <Route path='/counter' components={{ body: Counter }} />
